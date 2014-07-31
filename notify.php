@@ -6,7 +6,7 @@
 require_once "ipn_asnad.php";
 
 $ipn = new Asnad_notify();
-$ipn->account_secret_code = $_POST['account_secret_code'];
+$ipn->account_secret_code = "S000000000000";
 
 
 switch($_GET['loc']){
